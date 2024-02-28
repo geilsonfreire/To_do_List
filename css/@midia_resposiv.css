@@ -1,0 +1,302 @@
+/* Estilos para telas com no mínimo 320px de largura */
+@media screen and (min-width: 320px) {
+  /* ESTILO HEADER*/
+  header div.container-title {
+    width: 90%;
+    height: 80px;
+    margin: 1rem;
+  }
+
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    font-size: 2.5em;
+  }
+
+  /* ESTILO INPUT HEADER */
+  header div.container-input {
+    padding: 0;
+  }
+
+  header div.container-input input {
+    padding: 2px 1rem;
+    font-size: 0.8rem;
+  }
+
+  header div.container-input button {
+    padding: 0.1rem;
+    margin: 1rem;
+  }
+
+  /* ESTILO SECTION */
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-inline: 5px;
+  }
+
+  section div.item {
+    border-bottom: solid 4px #00ff26;
+  }
+}
+
+/* Estilos para telas com no mínimo 375px de largura */
+@media screen and (min-width: 375px) {
+}
+
+/* Estilos para telas com no mínimo 412px de largura */
+@media screen and (min-width: 412px) {
+}
+
+/* Estilos para telas com no mínimo 768px de largura */
+@media screen and (min-width: 768px) {
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    font-size: 5em;
+  }
+
+  /* ESTILO INPUT HEADER */
+  header div.container-input {
+    padding: 1rem;
+  }
+
+  header div.container-input input {
+    padding: 2px 1rem;
+    font-size: 1.5rem;
+  }
+
+  /* ESTILO SECTION */
+  section {
+    padding: 2rem;
+    padding-inline: 1rem;
+  }
+
+  section div.item {
+    border-bottom: solid 4px #00ff26;
+  }
+}
+
+/* Estilos para telas com no mínimo 1024px de largura */
+@media screen and (min-width: 1024px) {
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    font-size: 5em;
+  }
+
+  /* ESTILO INPUT HEADER */
+  header div.container-input {
+    padding: 1.5rem;
+  }
+
+  header div.container-input input {
+    padding: 5px 1.5rem;
+    font-size: 2rem;
+    border-bottom: solid 2px #00ff26;
+    border-radius: 10px;
+  }
+
+  header div.container-input button {
+    font-size: 2rem;
+  }
+
+  header div.container-input button:hover {
+    background-color: #fff;
+    color: #00ff26;
+  }
+
+  /* ESTILO SECTION */
+  section {
+    padding: 2rem;
+    padding-inline: 1rem;
+  }
+
+  section div.item {
+    height: 60px;
+    padding: 1rem;
+    border-bottom: solid 5px #00ff26;
+  }
+}
+
+section div.item-icon {
+  font-size: 2rem;
+}
+
+.bi-check2-circle {
+  font-size: 2.2rem;
+}
+
+section div.item-name {
+  font-size: 2rem;
+}
+
+/* Estilos para telas com no mínimo 1366px de largura */
+@media screen and (min-width: 1366px) {
+  /* ESTILO HEADER*/
+  header div.container-title {
+    margin: 5% auto;
+  }
+
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    stroke-width: 5;
+    font-size: 5em;
+  }
+
+  /* ESTILO INPUT HEADER */
+  header div.container-input {
+    margin: auto auto;
+    padding: 5rem 0;
+  }
+
+  header div.container-input input {
+    padding: 5px 1.5rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    border-bottom: solid 2px #00ff26;
+  }
+
+  header div.container-input button {
+    padding: 5px 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+  }
+
+  /* ESTILO SECTION */
+  section {
+    padding: 2.5rem;
+  }
+
+  section div.item {
+    height: 80px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-bottom: solid 5px #00ff26;
+  }
+
+  section div.item-icon {
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+
+  .bi-check2-circle {
+    font-size: 2.2rem;
+  }
+
+  section div.item-name {
+    font-size: 2rem;
+  }
+
+  section div.item-button {
+    font-size: 2rem;
+  }
+
+  section div.item-button i {
+    font-size: 2rem;
+  }
+}
+
+/* Estilos para telas com no mínimo 1920px de largura */
+@media screen and (min-width: 1920px) {
+   /* ESTILO HEADER*/
+   header div.container-title {
+    margin: 5% auto;
+  }
+
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    font-size: 5em;
+  }
+
+  header div.container-input input {
+    font-size: 3.5rem;
+    border-radius: 20px;
+    border-bottom: solid 3px #00ff26;
+  }
+
+  header div.container-input button {
+    padding: 5px 1.5rem;
+    font-size: 3.5rem;
+  }
+
+  /* ESTILO SECTION */
+  section div.item {
+    height: 100px;
+    padding: 2rem;
+    border-bottom: solid 8px #00ff26;
+  }
+
+  section div.item-icon {
+    font-size: 3rem;
+    border-radius: 10px;
+  }
+
+  .bi-check2-circle {
+    font-size: 3.2rem;
+  }
+
+  section div.item-name {
+    font-size: 3.5rem;
+  }
+
+  section div.item-button {
+    font-size: 3.5rem;
+  }
+
+  section div.item-button i {
+    font-size: 3.5rem;
+  }
+}
+
+/* Estilos para telas com no mínimo 2560px de largura */
+@media screen and (min-width: 2560px) {
+  /* ESTILO HEADER*/
+  header div.container-title {
+    margin: 5% auto;
+  }
+
+  /* ESTILO TITLE HEADER*/
+  svg text {
+    font-size: 5em;
+  }
+
+  header div.container-input input {
+    font-size: 3.5rem;
+    border-radius: 20px;
+    border-bottom: solid 3px #00ff26;
+  }
+
+  header div.container-input button {
+    padding: 5px 1.5rem;
+    font-size: 3.5rem;
+  }
+
+  /* ESTILO SECTION */
+  section div.item {
+    height: 100px;
+    padding: 2rem;
+    border-bottom: solid 8px #00ff26;
+  }
+
+  section div.item-icon {
+    font-size: 3rem;
+    border-radius: 10px;
+  }
+
+  .bi-check2-circle {
+    font-size: 3.2rem;
+  }
+
+  section div.item-name {
+    font-size: 3.5rem;
+  }
+
+  section div.item-button {
+    font-size: 3.5rem;
+  }
+
+  section div.item-button i {
+    font-size: 3.5rem;
+  }
+}

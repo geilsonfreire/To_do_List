@@ -108,7 +108,6 @@ body {
   width: 100vw;
   height: 100vh;
   background: #000;
-  overflow-x: hidden;
   line-height: 1;
 }
 
@@ -144,12 +143,4 @@ table {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Gruppo", sans-serif;
-}
-
-/*Aplicando scroll Reveal em todo o site*/
-.scrol-txt-topo,
-.scrol-img-topo,
-.titulo,
-.scrol-img-sobre {
-  visibility: hidden;
 }
