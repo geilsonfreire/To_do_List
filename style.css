@@ -1,0 +1,233 @@
+/* ESTILO GENERAL */
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ESTILO HEADER*/
+header div.container-title {
+  position: relative;
+  align-items: center;
+  width: 80%;
+  height: 80px;
+  margin: 4% auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* ESTILO TITLE HEADER*/
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+svg text {
+  animation: stroke 5s infinite;
+  stroke-width: 2;
+  stroke: #fff;
+  font-size: 5em;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(0, 255, 38, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(0, 255, 38, 1);
+  }
+  80% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(0, 255, 38, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(0, 255, 38, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+/* ESTILO INPUT HEADER */
+header div.container-input {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 80%;
+  margin: auto auto;
+  padding: 1rem 0;
+}
+
+header div.container-input input {
+  width: 80%;
+  padding: 4px 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: transparent;
+  border-bottom: solid 1px #00ff26;
+  caret-color: #00ff26;
+  color: #fff;
+}
+
+header div.container-input input::placeholder {
+  animation: typing 4s steps(40, end);
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffffff25;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+header div.container-input button {
+  padding: 4px 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #00ff26;
+  color: #fff;
+  cursor: pointer;
+}
+
+header div.container-input button:hover {
+  background-color: #fff;
+  color: #00ff26;
+}
+
+/* ESTILO MAIN */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  padding: 2rem;
+  background: #000;
+  border: solid 1px #e0e0e0;
+  border-radius: 20px;
+  padding-inline: 20px;
+}
+
+section::before,
+section::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  border-radius: 20px;
+  background: linear-gradient(
+    45deg,
+    #00ff26,
+    #00ff26,
+    #00ff26,
+    #5ddcff,
+    #3c67e3,
+    #4e00c2,
+    #00ff26,
+    #5ddcff,
+    #3c67e3,
+    #4e00c2
+  );
+  background-size: 400%;
+  z-index: -1;
+  animation: spin 5s linear infinite;
+}
+
+section::after {
+  filter: blur(1px);
+}
+
+@keyframes spin {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
+section div.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  background-color: transparent;
+  border-bottom: solid #00ff26;
+}
+
+section div.item.check {
+  background: #a7cfad;
+  color: #fff;
+}
+
+section div.item.check .item-name {
+  text-decoration: line-through;
+  color: #00000083;
+}
+
+section div.item-icon {
+  flex: 10%;
+  color: #fff;
+  font-size: 1rem;
+  padding-right: 4%;
+}
+
+section div.item-icon i {
+  cursor: pointer;
+}
+
+.bi-check2-circle {
+  background: #06921b;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+section div.item-icon i:hover {
+  color: #fff;
+}
+
+section div.item-name {
+  flex: 80%;
+  font-size: 2rem;
+  color: #fff;
+  padding-left: 4%;
+  border-radius: 8px;
+}
+section div.item-button {
+  flex: 10%;
+  color: #fff;
+  font-size: 1rem;
+  padding-left: 4%;
+}
+
+section div.item-button i {
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+section div.item-button i:hover {
+  color: #da0808b6;
+}
