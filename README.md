@@ -3,8 +3,8 @@
 
 
 <div>
-    <img src="assets/readme/celular.png" alt="Celular">
-    <img src="assets/readme/notebook.png" alt="NoteBook" width="600">
+    <img src="assets/readme/celular.png" alt="Celular" width="30%" height="auto">
+    <img src="assets/readme/notebook.png" alt="NoteBook" width="60%" height="auto"">
 </div>
 
 # Lista de Tarefa
