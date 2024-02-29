@@ -1,5 +1,5 @@
-/* Estilos para telas com no mínimo 320px de largura */
-@media screen and (min-width: 320px) {
+/* Estilos para telas entre 320px a 412px de largura */
+@media only screen and (min-width: 320px) and (max-width: 414px){
   /* ESTILO HEADER*/
   header div.container-title {
     width: 90%;
@@ -19,12 +19,13 @@
 
   header div.container-input input {
     padding: 2px 1rem;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
   }
 
   header div.container-input button {
     padding: 0.1rem;
-    margin: 1rem;
+    margin: 2rem .50rem;
+    font-size: 1.5rem;
   }
 
   /* ESTILO SECTION */
@@ -39,18 +40,20 @@
   section div.item {
     border-bottom: solid 4px #00ff26;
   }
-}
 
-/* Estilos para telas com no mínimo 375px de largura */
-@media screen and (min-width: 375px) {
-}
+  section div.item-icon i {
+    font-size: 1.5rem;
+  }
 
-/* Estilos para telas com no mínimo 412px de largura */
-@media screen and (min-width: 412px) {
+  section div.item-name {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
 }
 
 /* Estilos para telas com no mínimo 768px de largura */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 415px) and (max-width: 768px) {
   /* ESTILO TITLE HEADER*/
   svg text {
     font-size: 5em;
@@ -58,12 +61,14 @@
 
   /* ESTILO INPUT HEADER */
   header div.container-input {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   header div.container-input input {
     padding: 2px 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    border-bottom: solid 2px #00ff26;
+    border-radius: 10px;
   }
 
   /* ESTILO SECTION */
@@ -73,12 +78,27 @@
   }
 
   section div.item {
+    height: 60px;
     border-bottom: solid 4px #00ff26;
+    border-radius: 10px;
   }
+
+  section div.item-icon {
+    font-size: 1.5rem;
+  }
+  
+  .bi-check2-circle {
+    font-size: 2rem;
+  }
+  
+  section div.item-name {
+    font-size: 1.5rem;
+  }
+
 }
 
 /* Estilos para telas com no mínimo 1024px de largura */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px){
   /* ESTILO TITLE HEADER*/
   svg text {
     font-size: 5em;
@@ -100,11 +120,6 @@
     font-size: 2rem;
   }
 
-  header div.container-input button:hover {
-    background-color: #fff;
-    color: #00ff26;
-  }
-
   /* ESTILO SECTION */
   section {
     padding: 2rem;
@@ -112,26 +127,32 @@
   }
 
   section div.item {
-    height: 60px;
+    height: 80px;
     padding: 1rem;
     border-bottom: solid 5px #00ff26;
   }
-}
 
-section div.item-icon {
-  font-size: 2rem;
-}
+  section div.item-icon {
+    font-size: 2rem;
+  }
+  
+  .bi-check2-circle {
+    font-size: 2.2rem;
+  }
+  
+  section div.item-name {
+    font-size: 2rem;
+  }
+  
+  section div.item-button i {
+    font-size: 2rem;
+  }
 
-.bi-check2-circle {
-  font-size: 2.2rem;
-}
 
-section div.item-name {
-  font-size: 2rem;
 }
 
 /* Estilos para telas com no mínimo 1366px de largura */
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1025px) and (max-width: 1366px){
   /* ESTILO HEADER*/
   header div.container-title {
     margin: 5% auto;
@@ -198,7 +219,7 @@ section div.item-name {
 }
 
 /* Estilos para telas com no mínimo 1920px de largura */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1367px) and (max-width: 1920px){
    /* ESTILO HEADER*/
    header div.container-title {
     margin: 5% auto;
@@ -237,7 +258,7 @@ section div.item-name {
   }
 
   section div.item-name {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   section div.item-button {
@@ -250,7 +271,7 @@ section div.item-name {
 }
 
 /* Estilos para telas com no mínimo 2560px de largura */
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px){
   /* ESTILO HEADER*/
   header div.container-title {
     margin: 5% auto;
