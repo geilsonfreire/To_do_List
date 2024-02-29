@@ -4,7 +4,7 @@
 
 <div>
     <img src="assets/readme/celular.png" alt="Celular">
-    <img src="assets/readme/notebook.png" alt="NoteBook">
+    <img src="assets/readme/notebook.png" alt="NoteBook" width="600">
 </div>
 
 # Lista de Tarefa
