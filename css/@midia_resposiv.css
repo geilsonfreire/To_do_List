@@ -1,4 +1,4 @@
-/* Estilos para telas entre 320px a 412px de largura */
+c
 @media only screen and (min-width: 320px) and (max-width: 414px){
   /* ESTILO HEADER*/
   header div.container-title {
@@ -52,7 +52,7 @@
 
 }
 
-/* Estilos para telas com no mínimo 768px de largura */
+/* Estilos para telas entre 415px a 768px de largura */
 @media only screen and (min-width: 415px) and (max-width: 768px) {
   /* ESTILO TITLE HEADER*/
   svg text {
@@ -97,7 +97,7 @@
 
 }
 
-/* Estilos para telas com no mínimo 1024px de largura */
+/* Estilos para telas entre 769px a 1024px de largura */
 @media screen and (min-width: 769px) and (max-width: 1024px){
   /* ESTILO TITLE HEADER*/
   svg text {
@@ -151,7 +151,7 @@
 
 }
 
-/* Estilos para telas com no mínimo 1366px de largura */
+/* Estilos para telas entre 1025px a 1366px de largura */
 @media screen and (min-width: 1025px) and (max-width: 1366px){
   /* ESTILO HEADER*/
   header div.container-title {
@@ -218,7 +218,7 @@
   }
 }
 
-/* Estilos para telas com no mínimo 1920px de largura */
+/* Estilos para telas entre 1367px a 1920px de largura */
 @media screen and (min-width: 1367px) and (max-width: 1920px){
    /* ESTILO HEADER*/
    header div.container-title {
@@ -270,7 +270,7 @@
   }
 }
 
-/* Estilos para telas com no mínimo 2560px de largura */
+/* Estilos para telas entre 1921px a 2560px de largura */
 @media screen and (min-width: 1921px) and (max-width: 2560px){
   /* ESTILO HEADER*/
   header div.container-title {
